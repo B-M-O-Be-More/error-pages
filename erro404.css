@@ -1,0 +1,59 @@
+
+@keyframes animationLogo {
+    0%{left: -19px;}
+    25%{left: 19px;}
+    50%{left: -19px;}
+    75%{left: 0;}
+  
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Switzer', sans-serif;
+    color: #F6F8FA;
+    overflow: hidden;
+}
+
+body{
+    text-align: center;
+    background-color: #0d1117;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 25%;
+}
+img{
+    margin-top: 1rem;
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+h1{
+    display: flex;
+    position: relative;
+    animation-name: animationLogo;
+    animation-duration: 0.3s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+}
+a{
+    margin-top: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: #0741e0;
+}
+a:hover{
+    background-color: #01227f;
+    transition: 0.1s;
+}
+#back{
+    padding: 1rem;
+    
+}
